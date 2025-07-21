@@ -1,23 +1,23 @@
-# 📚 DocAnalyzer – LLM-Powered Markdown File Chatbot
+# DocAnalyzer – LLM-Powered Markdown File Chatbot
 
 **DocAnalyzer** is a document-based Q&A chatbot built with **LangChain**, **Google Gemini Pro**, **OpenSearch**, and **Streamlit**. It lets users upload markdown files, ask questions in natural language, and get grounded, AI-generated answers with memory and chat history.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 📄 **Markdown Uploading**: Upload and analyze `.md` documents in the browser.
-- 🔍 **Hybrid Search**: Uses OpenSearch for both BM25 (keyword-based) and dense vector search.
-- 🎯 **Reranking**: Uses SentenceTransformers’ CrossEncoder for relevance scoring.
-- 🧠 **Lost-in-the-Middle Fix**: Reorders documents to keep most relevant info visible to the LLM.
-- 🤖 **LLM Answering**: Generates grounded answers using Google Gemini Pro.
-- 💬 **Conversational UI**: Looks and feels like ChatGPT, with session memory and query continuity.
-- 🗂️ **Previous Chat Sidebar**: Save and revisit earlier chats with topic summaries.
-- 🌐 **Streamlit App**: Clean, interactive UI for querying and answering.
+- **Markdown Uploading**: Upload and analyze `.md` documents in the browser.
+- **Hybrid Search**: Uses OpenSearch for both BM25 (keyword-based) and dense vector search.
+- **Reranking**: Uses SentenceTransformers’ CrossEncoder for relevance scoring.
+- **Lost-in-the-Middle Fix**: Reorders documents to keep most relevant info visible to the LLM.
+- **LLM Answering**: Generates grounded answers using Google Gemini Pro.
+- **Conversational UI**: Looks and feels like ChatGPT, with session memory and query continuity.
+- **Previous Chat Sidebar**: Save and revisit earlier chats with topic summaries.
+- **Streamlit App**: Clean, interactive UI for querying and answering.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer         | Tool/Service                      |
 |---------------|----------------------------------|
